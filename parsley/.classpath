@@ -1,0 +1,8 @@
+<classpath>
+  <classpathentry kind="src" path="src/main/java" excluding="**/.svn/|**/CVS/"/>
+  <classpathentry kind="src" path="src/main/resources" excluding="**/.svn/|**/CVS/" output="target/resources"/>
+  <classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+  <classpathentry kind="output" path="target/classes"/>
+  <classpathentry kind="var" path="M2_REPO/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar" sourcepath="M2_REPO/javax/servlet/servlet-api/2.5/servlet-api-2.5-sources.jar" javadocpath="M2_REPO/javax/servlet/servlet-api/2.5/servlet-api-2.5-javadoc.jar"/>
+  <classpathentry kind="var" path="M2_REPO/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar" sourcepath="M2_REPO/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1-sources.jar" javadocpath="M2_REPO/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1-javadoc.jar"/>
+</classpath>
