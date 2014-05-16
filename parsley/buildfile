@@ -10,8 +10,22 @@ COPYRIGHT = ""
 # Specify Maven 2.0 remote repositories here, like this:
 repositories.remote << "http://repo1.maven.org/maven2"
 
+JUNIT = 'junit:junit:jar:4.11'
 SERVLET_API = 'javax.servlet:servlet-api:jar:2.5'
 COMMONS_LOGGING = 'commons-logging:commons-logging:jar:1.1.1'
+CUCUMBER_JUNIT = 'info.cukes:cucumber-junit:jar:1.1.5'
+CUCUMBER_JAVA = 'info.cukes:cucumber-java:jar:1.1.5'
+CUCUMBER_CORE = 'info.cukes:cucumber-core:jar:1.1.5'
+CUCUMBER_DEPS = 'info.cukes:cucumber-jvm-deps:jar:1.0.3'
+GHERKIN = 'info.cukes:gherkin:jar:2.12.2'
+XMLPULL = 'xmlpull:xmlpull:jar:1.1.3.1'
+DOM4J = 'dom4j:dom4j:jar:1.6.1'
+JDOM = 'org.jdom:jdom-legacy:jar:1.1.3'
+WOODSTOX = 'org.codehaus.woodstox:wstx-lgpl:jar:3.2.6'
+CGLIB = 'cglib:cglib:jar:3.1'
+XOM = 'xom:xom:jar:1.2.5'
+STAX = 'stax:stax:jar:1.2.0_rc2-dev'
+CUCUMBER_REPORTING = 'net.masterthought:cucumber-reporting:jar:0.0.23'
 
 
 desc "The Parsley project"
@@ -20,7 +34,7 @@ define "parsley" do
   project.version = VERSION_NUMBER
   project.group = GROUP
   manifest["Implementation-Vendor"] = COPYRIGHT
-  compile.with SERVLET_API, COMMONS_LOGGING
+  compile.with SERVLET_API, COMMONS_LOGGING, CUCUMBER_JUNIT, CUCUMBER_JAVA, CUCUMBER_DEPS, CUCUMBER_CORE, GHERKIN, XMLPULL, DOM4J, JDOM, WOODSTOX, CGLIB, XOM, STAX, JUNIT, CUCUMBER_REPORTING
   resources
   test.compile.with # Add classpath dependencies
   test.resources
