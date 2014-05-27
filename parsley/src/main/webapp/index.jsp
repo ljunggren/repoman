@@ -21,5 +21,7 @@ Current working examples using templates <br/>
 <a href="fileservlet?filename=car_splash.xml&type=class3&csstype=class3">"Car Resale Page" - Class 3</a><br/>
 <a href="fileservlet?filename=car_splash.xml&type=iphone&csstype=iphone">"Car Resale Page" - IPhone</a><br/>
 
+Testing
+
 </body>
 </html>
